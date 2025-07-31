@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+.fromTo{
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn-warning{
+    background-color: #fecd06 !important;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger{
+    background-color: crimson !important;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger:hover{
+    background-color: rgb(208, 15, 54) !important;
+}
+
+.btn-success{
+    background-color: rgb(53, 167, 53) !important;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-success:hover{
+    background-color: rgb(45, 153, 45) !important;
+}
+
+#from{
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+#from p{
+    margin: 0;
+    color: #8e8e93;
+}
+
+#to{
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+#to p{
+    margin: 0;
+    color: #8e8e93;
+}
+
+#to p b{
+    color: #5b5b60;
+}
+
+#date{
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+#date p{
+    margin: 0;
+    color: #8e8e93;
+}
+
+#date p b{
+    color: #5b5b60;
+}
+
+table{
+    border: none;
+    width: 100%;
+    margin: 2rem 0;
+    color: #5b5b60;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+tbody{
+    padding: 10px;
+    background-color: #efeff0;
+}
+
+.prepared{
+    font-weight: 500;
+    color: #8e8e93;
+}
+
+@media screen and (max-width: 600px) {
+    .fromTo{ 
+        display: flex;
+        flex-direction: column;  
+    }
+}
