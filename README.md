@@ -1,4 +1,4 @@
-INSURANCE COE CHALLENGE
+INSURANCE CODE CHALLENGE
 ============
 
 This is the code challenge for the Hobbiton software engineer role application
