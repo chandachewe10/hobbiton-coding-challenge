@@ -3,8 +3,8 @@ INSURANCE CODE CHALLENGE
 
 This is the code challenge for the Hobbiton software engineer role application
 
-The System UI is built with [React](https://react.dev/),
-[Node.js](https://nodejs.org/), and
+The System UI is built with [React](https://react.dev/). The other dependencies include
+[Node.js](https://nodejs.org/), and the database is
 [Firebase](https://firebase.google.com/).
 
 
@@ -36,6 +36,7 @@ provided as a reference.
   [Prerequisites](#Prerequisites)
 
 - Run the following command to install the dependencies:
+```
 
 ```sh
   npm install
