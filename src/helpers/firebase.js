@@ -6,13 +6,13 @@ import { getStorage } from 'firebase/storage'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC5pPVaZZxrA9YJFpcwU1CS6v3S_datyGM",
-  authDomain: "insurance-73117.firebaseapp.com",
-  projectId: "insurance-73117",
-  storageBucket: "insurance-73117.firebasestorage.app",
-  messagingSenderId: "102923867637",
-  appId: "1:102923867637:web:b859c41b3ecc884c00fcbc",
-  measurementId: "G-M3080E723G"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
 }
 
 const app = initializeApp(firebaseConfig)
